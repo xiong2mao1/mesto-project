@@ -6,7 +6,8 @@
   border: 1px solid #FFFFFF;
   background: center center black;
   box-sizing: border-box;
-  transition: opacity .3s;
+  transition: .3s linear;
+  opacity: 1;
 }
 
 .profile__edit-button:hover {

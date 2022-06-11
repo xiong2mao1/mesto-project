@@ -6,10 +6,11 @@
   border: 2px solid #FFFFFF;
   background: center center black;
   box-sizing: border-box;
-  transition: opacity .3s;
+  transition: .3s linear;
+  opacity: 1;
 }
 
-.profile__edit-button:hover {
+.profile__add-button:hover {
   opacity: .6;
   cursor: pointer;
 }

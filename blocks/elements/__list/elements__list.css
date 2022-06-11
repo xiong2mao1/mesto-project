@@ -1,7 +1,9 @@
 .elements__list {
-  max-width: 880px;
-  min-width: 320px;
-  list-style: none;
-  margin: 0;
+  list-style-type: none;
+  margin: 0 auto;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  row-gap: 20px;
+  column-gap: 17px;
 }
