@@ -4,10 +4,11 @@
   width: 24px;
   height: 24px;
   border: 1px solid #FFFFFF;
-  background: center center black;
+  background: center no-repeat black;
   box-sizing: border-box;
   transition: .3s linear;
   opacity: 1;
+  align-self: center;
 }
 
 .profile__edit-button:hover {
@@ -15,3 +16,19 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .profile__edit-button {
+    margin-top: 30px;
+    margin-left: 18px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .profile__edit-button {
+    margin-left: 0;
+    width: 18px;
+    height: 18px;
+
+
+  }
+}

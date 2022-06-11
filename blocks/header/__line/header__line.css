@@ -3,3 +3,9 @@
   box-sizing: border-box;
   padding-bottom: 40px;
 }
+
+@media screen and (max-width: 660px) {
+  .header__line {
+    padding-bottom: 31.6px;
+  }
+}
