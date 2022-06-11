@@ -89,5 +89,18 @@
         <p class="footer__copyright">&copy;&nbsp;2022 Mesto</p>
       </footer>
     </div>
+
+    <section class="popup popup_opened">
+      <div class="popup__container">
+        <button type="button" class="popup__close-button"><img src="./images/popup__close-button.svg" alt="Крестик закрытия." class="popup__close-button-image"></button>
+        <h3 class="popup__title">Редактировать профиль</h3>
+        <form class="popup__form" name="popup">
+          <input type="text" name="name" value="Жак-Ив Кусто" class="popup__input popup__input_type_name">
+          <input type="text" name="about" value="Исследователь океана" class="popup__input popup__input_type_about">
+          <input type="submit" name="button" class="popup__submit-button" value="Сохранить">
+        </form>
+      </div>
+    </section>
+
   </body>
 </html>
